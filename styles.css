@@ -1,0 +1,15 @@
+#my_title {
+    color: cornflowerblue;
+    font-size: 36px;
+    text-transform: capitalize;
+    padding: 40px;
+}
+
+h2 {
+    color: orangered;
+}
+
+.my_paragraph {
+    text-decoration: orangered;
+    border: 1px solid green;
+}
