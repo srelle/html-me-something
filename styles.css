@@ -1,15 +1,69 @@
-#my_title {
-    color: cornflowerblue;
-    font-size: 36px;
-    text-transform: capitalize;
-    padding: 40px;
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    background: rgba(243,226,199,1);
+    background: -moz-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 50%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,226,199,1)), color-stop(50%, rgba(193,158,103,1)), color-stop(51%, rgba(182,141,76,1)), color-stop(100%, rgba(233,212,179,1)));
+    background: -webkit-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 50%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%);
+    background: -o-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 50%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%);
+    background: -ms-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 50%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%);
+    background: linear-gradient(to right, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 50%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3', GradientType=1 );
 }
 
-h2 {
-    color: orangered;
+#sunset-image {
+    margin-top: 120px;
 }
 
-.my_paragraph {
-    text-decoration: orangered;
-    border: 1px solid green;
+#sonnet-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#sonnet-title {
+    text-align: center;
+}
+
+.clearwater {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#sonnet {
+    margin-left: 50px;
+}
+
+.freeform {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#page-title {
+    text-align: center;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.image-group {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    opacity: 0.8;
+}
+
+.image {
+    margin: 15px;
+    width: 300px;
+    height: 200px;
+}
+
+footer {
+    text-align: center;
+    font-size: 16px;
 }
