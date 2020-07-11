@@ -25,6 +25,8 @@ body {
 
 #sonnet-title {
     text-align: center;
+    font-weight: 300;
+    text-decoration: underline;
 }
 
 .clearwater {
@@ -37,16 +39,26 @@ body {
 }
 
 .freeform {
-    margin-left: 200px;
-    margin-right: 200px;
+    text-align: center;
 }
 
 #page-title {
     text-align: center;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    font-size: 48px;
+}
+
+span {
+    font-size: 18px
 }
 
 .section-title {
     text-align: center;
+    text-decoration: underline;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .image-group {
